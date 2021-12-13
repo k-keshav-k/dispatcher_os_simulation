@@ -1,9 +1,5 @@
 README
 
-Submitter name: Keshav Krishna
-Roll No.: 2019csb1224
-Course: CSL303
-
 1. What does this program do
 The program tries to simulate the working of a dispatcher in an OS. Client sends requests to a multi threaded socket server, from which a dispatcher takes the requests, and checks whether it falls under the limits of thread number, memory or number of files open. If it is under the limits, DLL function is invoked. The client sends which function to invoke with which arguments and the server computes the result and returns the answer to the client. The client program ends there while the server continues to listen to more requests.
 
